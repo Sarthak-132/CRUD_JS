@@ -9,6 +9,53 @@
 </head>
 <body>
     
+
+    <h1>Form Data CRUD Operation :- </h1>
+    <table>
+        <tr>
+            <td>
+                <!-- html form for validations -->
+                <form autocomplete="off" onsubmit="event.preventDefault(); onFormSubmit();">
+                    <div>
+                        <label>Full Name : </label>
+                        <input type="text" name="fullName" id="fullName">
+                    </div>
+                    <div>
+                        <label>Employee Number : </label>
+                        <input type="text" name="empNum" id="empNum">
+                    </div>
+                    <div>
+                        <label>Salary : </label>
+                        <input type="text" name="salary" id="salary">
+                    </div>
+                    <div>
+                        <label>City : </label>
+                        <input type="text" name="city" id="city">
+                    </div>
+                    <div class="1">
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </td>
+
+            <td>
+                <!-- table to list all records -->
+                <table class="list" id="empList">
+                    <thead>
+                        <tr>
+                            <th>Full Name </th>
+                            <th>Employee number</th>
+                            <th>Salary</th>
+                            <th>City</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
     
 
 
